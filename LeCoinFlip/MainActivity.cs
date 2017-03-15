@@ -14,7 +14,6 @@ namespace LeCoinFlip
 	public class MainActivity : Activity
 	{
 		public TextView countDown;
-		private DataLayer datalayer = new DataLayer();
 
 
 		protected override void OnCreate(Bundle savedInstanceState)
@@ -27,7 +26,7 @@ namespace LeCoinFlip
 			// Get our button from the layout resource,
 			// and attach an event to it
 			//Button button = FindViewById<Button>(Resource.Id.myButton);
-			TextView connectedStatus = FindViewById<TextView>(Resource.Id.statusText);
+			//TextView connectedStatus = FindViewById<TextView>(Resource.Id.statusText);
 			countDown = FindViewById<TextView>(Resource.Id.countDown);
 			WebView webView = FindViewById<WebView>(Resource.Id.webView);
 
@@ -51,7 +50,7 @@ namespace LeCoinFlip
 			{
 				RunOnUiThread(() =>
 				{
-					connectedStatus.Text = "Status: Connected";
+					//connectedStatus.Text = "Status: Connected";
 				});
 			});
 
@@ -59,7 +58,7 @@ namespace LeCoinFlip
 			{
 				RunOnUiThread(() =>
 				{
-					connectedStatus.Text = "Status: Not connected";
+					//connectedStatus.Text = "Status: Not connected";
 				});
 			});
 		}

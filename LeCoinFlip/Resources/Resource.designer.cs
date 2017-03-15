@@ -45,10 +45,10 @@ namespace LeCoinFlip
 		{
 			
 			// aapt resource value: 0x7f050002
-			public const int countDown = 2131034114;
+			public const int betInput = 2131034114;
 			
 			// aapt resource value: 0x7f050001
-			public const int statusText = 2131034113;
+			public const int countDown = 2131034113;
 			
 			// aapt resource value: 0x7f050000
 			public const int webView = 2131034112;

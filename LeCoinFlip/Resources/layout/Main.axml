@@ -11,15 +11,15 @@
         android:contextClickable="false"
         tools:visibility="visible" />
     <TextView
-        android:text="Status: "
-        android:textAppearance="?android:attr/textAppearanceLarge"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:id="@+id/statusText" />
-    <TextView
         android:text="Time to next spin: "
         android:textAppearance="?android:attr/textAppearanceLarge"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:id="@+id/countDown" />
+    <EditText
+        android:inputType="numberDecimal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/betInput"
+        android:hint="1337" />
 </LinearLayout>
