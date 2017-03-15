@@ -7,7 +7,7 @@ namespace LeCoinFlip
 	{
 		private int spinTimeLeft = 0;
 		private static string APIendPoint = "http://192.168.1.25:3000/";
-		private Socket DataLayerSocket = IO.Socket(APIendPoint);
+		private static Socket DataLayerSocket = IO.Socket(APIendPoint);
 
 		public DataLayer()
 		{
@@ -19,7 +19,6 @@ namespace LeCoinFlip
 		//{
 
 		//});
-
 
 		public int getSpinTime()
 		{

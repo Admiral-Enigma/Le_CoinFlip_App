@@ -14,6 +14,7 @@ namespace LeCoinFlip
 	public class MainActivity : Activity
 	{
 		public TextView countDown;
+		private DataLayer datalayer = new DataLayer();
 
 
 		protected override void OnCreate(Bundle savedInstanceState)
